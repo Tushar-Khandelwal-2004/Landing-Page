@@ -2,6 +2,7 @@ import './App.css'
 import FeatureSection from './components/FeatureSection'
 import HeroSection from './components/HeroSection'
 import Navbar from './components/Navbar'
+import Price from './components/Price'
 import Workflow from './components/Workflow'
 
 export default function App() {
@@ -12,6 +13,7 @@ export default function App() {
         <HeroSection />
         <FeatureSection />
         <Workflow/>
+        <Price/>
       </div>
     </>
   )
